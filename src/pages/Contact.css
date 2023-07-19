@@ -47,6 +47,18 @@ section {
 
   transition: all 400ms ease;
 }
+.btn2 {
+  display: inline-flex;
+  padding: 10px 16px;
+  background: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #003355;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.288);
+  transition: 0.3s;
+}
 
 /*==================== FORM ====================*/
 

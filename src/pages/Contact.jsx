@@ -59,7 +59,7 @@ const Contact = () => {
               placeholder="Your Message"
               required
             ></textarea>
-            <button type="submit" className="btn">
+            <button type="submit" className="btn2">
               Send Message
             </button>
           </form>
