@@ -45,10 +45,6 @@
   margin-right: 2rem;
 }
 
-.nav-item {
-  height: 80px;
-}
-
 .nav-links {
   color: #fff;
   display: flex;
@@ -117,7 +113,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(1%, 50%);
   }
 
   .menu-icon {
