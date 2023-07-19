@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
+import News from "./pages/News";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" exact element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/News" element={<News />} />
         </Routes>
       </Router>
     </>
