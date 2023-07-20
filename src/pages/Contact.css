@@ -10,7 +10,6 @@ section {
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
-  /* padding: 4px;*/
 }
 
 .contact__options {
@@ -40,7 +39,6 @@ section {
 .btn {
   width: max-content;
   display: inline-block;
-  /*color: var(--color-primary);*/
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -92,11 +90,3 @@ textarea {
     padding: 2px;
   }
 }
-
-/*======== MEDIA QUERIES (phones) ========
-@media screen and (max-width: 600px) {
-  .container.contact__container {
-    width: 90%;
-  }
-}
-*/
