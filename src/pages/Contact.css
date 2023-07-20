@@ -37,16 +37,11 @@ section {
   font-size: 0.8rem;
 }
 .btn {
-  width: max-content;
-  display: inline-block;
-  padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-
   transition: all 400ms ease;
 }
 .btn2 {
-  display: inline-flex;
   padding: 10px 16px;
   background: #fff;
   text-decoration: none;
@@ -56,6 +51,13 @@ section {
   color: #003355;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.288);
   transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background: #242424;
+  color: #fff;
+  transition: all 0.3s ease-out;
 }
 
 /*==================== FORM ====================*/
