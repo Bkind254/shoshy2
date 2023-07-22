@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { BsTwitter } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -26,14 +25,10 @@ const Contact = () => {
         <div className="container contact__container">
           <div className="contact__options">
             <article className="contact__option">
-              <FaLinkedin className="contact__option-icon" />
-              <h4>LinkedIn</h4>
-              <h5>Brian Selim</h5>
-              <a
-                href="https://www.linkedin.com/in/brian-selim-71b90a236/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <FaInstagram className="contact__option-icon" />
+              <h4>Instagram</h4>
+              <h5>BKind</h5>
+              <a href="#" target="_blank" rel="noreferrer">
                 Send a message
               </a>
             </article>
